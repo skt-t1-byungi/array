@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skt-t1-byungi/array.git"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0",
+    "tslint": "^5.11.0",
+    "tslint-config-byungi": "^0.0.5",
+    "typescript": "^2.9.2"
+  }
+}

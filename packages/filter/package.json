@@ -1,0 +1,6 @@
+{
+  "name": "@skt-t1-byungi/array-filter",
+  "version": "0.0.1",
+  "main": "filter.js",
+  "license": "MIT"
+}
