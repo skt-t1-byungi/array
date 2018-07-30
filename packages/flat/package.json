@@ -4,6 +4,7 @@
   "main": "flat.js",
   "license": "MIT",
   "files": [
-    "flat.js"
+    "flat.js",
+    "flat.d.ts"
   ]
 }

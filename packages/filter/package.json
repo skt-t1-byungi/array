@@ -4,6 +4,7 @@
   "main": "filter.js",
   "license": "MIT",
   "files": [
-    "filter.js"
+    "filter.js",
+    "filter.d.ts"
   ]
 }

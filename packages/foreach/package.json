@@ -4,6 +4,7 @@
   "main": "foreach.js",
   "license": "MIT",
   "files": [
-    "foreach.js"
+    "foreach.js",
+    "foreach.d.ts"
   ]
 }

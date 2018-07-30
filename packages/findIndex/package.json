@@ -4,6 +4,7 @@
   "main": "findIndex.js",
   "license": "MIT",
   "files": [
-    "findIndex.js"
+    "findIndex.js",
+    "findIndex.d.ts"
   ]
 }

@@ -4,6 +4,7 @@
   "main": "find.js",
   "license": "MIT",
   "files": [
-    "find.js"
+    "find.js",
+    "find.d.ts"
   ]
 }
