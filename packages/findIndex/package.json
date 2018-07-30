@@ -1,0 +1,9 @@
+{
+  "name": "@skt-t1-byungi/array-find-index",
+  "version": "0.0.1",
+  "main": "findIndex.js",
+  "license": "MIT",
+  "files": [
+    "findIndex.js"
+  ]
+}

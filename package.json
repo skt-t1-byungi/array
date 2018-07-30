@@ -1,13 +1,30 @@
 {
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && ava"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/skt-t1-byungi/array.git"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^5.2.0",
+    "eslint-config-byungi": "^0.0.17",
     "lerna": "^2.11.0",
     "tslint": "^5.11.0",
     "tslint-config-byungi": "^0.0.5",
     "typescript": "^2.9.2"
-  }
+  },
+  "eslintConfig": {
+    "extends": "byungi"
+  },
+  "eslintIgnore": [
+    "packages/**/*.js",
+    "!packages/**/*.test.js"
+  ]
 }

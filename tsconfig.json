@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5", 
+    "target": "es3", 
     "module": "commonjs",
     "strict": true,
-    "esModuleInterop": true 
+    "esModuleInterop": true ,
+    "declaration": true,
+    "lib": [
+      "es2016"
+    ]
   }
 }

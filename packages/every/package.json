@@ -1,0 +1,9 @@
+{
+  "name": "@skt-t1-byungi/every",
+  "version": "0.0.1",
+  "main": "every.js",
+  "license": "MIT",
+  "files": [
+    "every.js"
+  ]
+}

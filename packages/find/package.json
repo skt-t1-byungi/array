@@ -1,0 +1,9 @@
+{
+  "name": "@skt-t1-byungi/array-find",
+  "version": "0.0.1",
+  "main": "find.js",
+  "license": "MIT",
+  "files": [
+    "find.js"
+  ]
+}

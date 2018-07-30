@@ -1,0 +1,9 @@
+{
+  "name": "@skt-t1-byungi/array-flat",
+  "version": "0.0.1",
+  "main": "flat.js",
+  "license": "MIT",
+  "files": [
+    "flat.js"
+  ]
+}

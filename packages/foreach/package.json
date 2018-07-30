@@ -1,0 +1,9 @@
+{
+  "name": "@skt-t1-byungi/array-foreach",
+  "version": "0.0.1",
+  "main": "foreach.js",
+  "license": "MIT",
+  "files": [
+    "foreach.js"
+  ]
+}
