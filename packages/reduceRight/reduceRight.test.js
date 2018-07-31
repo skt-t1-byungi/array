@@ -7,7 +7,7 @@ test('reduceRight', t => {
   t.is(reduceRight(stub1, (acc, v) => acc + v), 10)
   t.is(reduceRight(stub1, (acc, v) => acc + v, 5), 15)
 
-  // for order
+  // for seq
   t.is(reduceRight(stub1, (acc, v) => v), 1)
 
   const stub2 = [{x: 1}, {x: 2}, {x: 3}]

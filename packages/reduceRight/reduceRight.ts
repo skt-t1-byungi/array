@@ -1,7 +1,6 @@
 type Reducer<T,U> = (prev: U, value: T, index: number, array: T[]) => U
 
 function reduceRight<T> (arr: T[], reducer: Reducer<T,T>): T
-function reduceRight<T,U> (arr: T[], reducer: Reducer<T,U>, initValue: U): U
 function reduceRight<T,U> (arr: T[], reducer: Reducer<T,U>, initValue ?: U) {
   if (arr.reduceRight) {
     if (arguments.length === 2) return arr.reduceRight(reducer as any)

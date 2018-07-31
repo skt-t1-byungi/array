@@ -18,7 +18,7 @@
     "lerna": "^2.11.0",
     "tslint": "^5.11.0",
     "tslint-config-byungi": "^0.0.5",
-    "typescript": "^2.9.2"
+    "typescript": "^3.0.1"
   },
   "eslintConfig": {
     "extends": "byungi"

@@ -7,7 +7,7 @@ test('reduce', t => {
   t.is(reduce(stub1, (acc, v) => acc + v), 10)
   t.is(reduce(stub1, (acc, v) => acc + v, 5), 15)
 
-  // for order
+  // for seq
   t.is(reduce(stub1, (acc, v) => v), 4)
 
   const stub2 = [{x: 1}, {x: 2}, {x: 3}]
