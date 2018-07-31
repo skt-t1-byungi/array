@@ -1,4 +1,4 @@
-type Mapper<T, U> = (value: T, index: number, array: T[]) => U[]
+type Mapper<T,U> = (value: T, index: number, array: T[]) => U[]
 
 export = function flatMap<T,U> (arr: T[], mapper: Mapper<T,U>) {
   const len = arr.length

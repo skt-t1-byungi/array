@@ -1,0 +1,10 @@
+{
+  "name": "@skt-t1-byungi/array-reduce-right",
+  "version": "0.0.1",
+  "main": "reduceRight.js",
+  "license": "MIT",
+  "files": [
+    "reduceRight.js",
+    "reduceRight.d.ts"
+  ]
+}

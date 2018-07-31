@@ -1,0 +1,10 @@
+{
+  "name": "@skt-t1-byungi/some",
+  "version": "0.0.1",
+  "main": "some.js",
+  "license": "MIT",
+  "files": [
+    "some.js",
+    "some.d.ts"
+  ]
+}

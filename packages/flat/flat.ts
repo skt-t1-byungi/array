@@ -4,10 +4,9 @@ export = function flat<T> (arr: Array<T | T[]>, depth= 1): Array<T | T[]> {
 
   for (let i = 0; i < len; i++) {
     const val = arr[i]
-
     if (val instanceof Array && depth > 0) {
       res.push(...flat(val, depth - 1))
-    } else if (val !== undefined && val !== null) {
+    } else {
       res.push(val)
     }
   }
