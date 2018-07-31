@@ -1,0 +1,10 @@
+{
+  "name": "@skt-t1-byungi/array-map",
+  "version": "0.0.1",
+  "main": "map.js",
+  "license": "MIT",
+  "files": [
+    "map.js",
+    "map.d.ts"
+  ]
+}

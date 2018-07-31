@@ -4,6 +4,7 @@
   "main": "every.js",
   "license": "MIT",
   "files": [
-    "every.js"
+    "every.js",
+    "every.d.ts"
   ]
 }

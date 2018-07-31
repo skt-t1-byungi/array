@@ -1,0 +1,10 @@
+{
+  "name": "@skt-t1-byungi/array-flat-map",
+  "version": "0.0.1",
+  "main": "flatMap.js",
+  "license": "MIT",
+  "files": [
+    "flatMap.js",
+    "flatMap.d.ts"
+  ]
+}

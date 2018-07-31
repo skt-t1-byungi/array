@@ -1,10 +1,10 @@
 {
-  "name": "@skt-t1-byungi/array-foreach",
+  "name": "@skt-t1-byungi/array-for-each",
   "version": "0.0.1",
-  "main": "foreach.js",
+  "main": "forEach.js",
   "license": "MIT",
   "files": [
-    "foreach.js",
-    "foreach.d.ts"
+    "forEach.js",
+    "forEach.d.ts"
   ]
 }

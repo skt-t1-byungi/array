@@ -1,0 +1,10 @@
+{
+  "name": "@skt-t1-byungi/array-includes",
+  "version": "0.0.1",
+  "main": "includes.js",
+  "license": "MIT",
+  "files": [
+    "includes.js",
+    "includes.d.ts"
+  ]
+}
