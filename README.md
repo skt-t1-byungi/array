@@ -3,7 +3,7 @@
 
 ![chi](chi.png)
 
-core-js is heavy, others don't have 'd.ts...
+core-js is heavy, others don't have 'd.ts'...
 
 ## Packages
 - every
