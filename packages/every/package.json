@@ -1,5 +1,5 @@
 {
-  "name": "@skt-t1-byungi/every",
+  "name": "@skt-t1-byungi/array-every",
   "description": "every() for old browser, in typescript.",
   "version": "0.1.0",
   "main": "every.js",

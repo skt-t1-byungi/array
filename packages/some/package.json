@@ -1,5 +1,5 @@
 {
-  "name": "@skt-t1-byungi/some",
+  "name": "@skt-t1-byungi/array-some",
   "description": "some() for old browser, in typescript.",
   "version": "0.1.0",
   "main": "some.js",
