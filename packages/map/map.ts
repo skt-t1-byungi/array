@@ -1,4 +1,4 @@
-type Mapper<T, U> = (value: T, index: number, array: T[]) => U
+type Mapper<T,U> = (value: T, index: number, array: T[]) => U
 
 export = function map<T,U> (arr: T[], mapper: Mapper<T,U>) {
   if (arr.map) return arr.map(mapper)
