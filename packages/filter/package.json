@@ -1,10 +1,21 @@
 {
   "name": "@skt-t1-byungi/array-filter",
+  "description": "filter() for old browser, in typescript.",
   "version": "0.0.1",
   "main": "filter.js",
   "license": "MIT",
   "files": [
     "filter.js",
     "filter.d.ts"
-  ]
+  ],
+  "types": "filter.d.ts",
+  "keywords": [
+    "array",
+    "filter"
+  ],
+  "author": {
+    "email": "tiniwz@gmail.com",
+    "name": "skt-t1-byungi"
+  },
+  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/filter"
 }

@@ -1,4 +1,4 @@
-export = function flat<T> (arr: Array<T | T[]>, depth= 1): Array<T | T[]> {
+export function flat<T> (arr: Array<T | T[]>, depth= 1): Array<T | T[]> {
   const len = arr.length
   const res = []
 

@@ -1,6 +1,6 @@
 type Reducer<T,U> = (prev: U, value: T, index: number, array: T[]) => U
 
-function reduceRight<T,U> (arr: T[], reducer: Reducer<T,U>, initValue: U) {
+export = function reduceRight<T,U> (arr: T[], reducer: Reducer<T,U>, initValue: U) {
   if (arr.reduceRight) return arr.reduceRight(reducer, initValue as U)
 
   const len = arr.length
@@ -13,5 +13,3 @@ function reduceRight<T,U> (arr: T[], reducer: Reducer<T,U>, initValue: U) {
 
   return res
 }
-
-export = reduceRight

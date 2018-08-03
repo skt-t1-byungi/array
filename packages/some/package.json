@@ -1,10 +1,21 @@
 {
   "name": "@skt-t1-byungi/some",
+  "description": "some() for old browser, in typescript.",
   "version": "0.0.1",
   "main": "some.js",
   "license": "MIT",
   "files": [
     "some.js",
     "some.d.ts"
-  ]
+  ],
+  "types": "some.d.ts",
+  "keywords": [
+    "array",
+    "some"
+  ],
+  "author": {
+    "email": "tiniwz@gmail.com",
+    "name": "skt-t1-byungi"
+  },
+  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/some"
 }

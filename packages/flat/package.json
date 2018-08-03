@@ -1,10 +1,21 @@
 {
   "name": "@skt-t1-byungi/array-flat",
+  "description": "flat() for old browser, in typescript.",
   "version": "0.0.1",
   "main": "flat.js",
   "license": "MIT",
   "files": [
     "flat.js",
     "flat.d.ts"
-  ]
+  ],
+  "types": "flat.d.ts",
+  "keywords": [
+    "array",
+    "flat"
+  ],
+  "author": {
+    "email": "tiniwz@gmail.com",
+    "name": "skt-t1-byungi"
+  },
+  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/flat"
 }
