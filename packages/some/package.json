@@ -1,7 +1,7 @@
 {
   "name": "@skt-t1-byungi/some",
   "description": "some() for old browser, in typescript.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "some.js",
   "license": "MIT",
   "files": [
