@@ -17,5 +17,8 @@
     "email": "tiniwz@gmail.com",
     "name": "skt-t1-byungi"
   },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/find"
+  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/find",
+  "publishConfig": {
+    "access": "public"
+  }
 }
