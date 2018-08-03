@@ -5,7 +5,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "tsc && ava"
+    "test": "tsc && ava",
+    "publish": "yarn test && lerna publish"
   },
   "repository": {
     "type": "git",
