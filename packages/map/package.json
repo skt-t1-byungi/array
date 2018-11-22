@@ -1,24 +1,24 @@
 {
-  "name": "@skt-t1-byungi/array-map",
-  "description": "map() for old browser, in typescript.",
-  "version": "0.1.0",
-  "main": "map.js",
-  "license": "MIT",
-  "files": [
-    "map.js",
-    "map.d.ts"
-  ],
-  "types": "map.d.ts",
-  "keywords": [
-    "array",
-    "map"
-  ],
-  "author": {
-    "email": "tiniwz@gmail.com",
-    "name": "skt-t1-byungi"
-  },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/map",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@skt-t1-byungi/array-map",
+    "description": "map() for old browser, in typescript.",
+    "version": "0.1.0",
+    "main": "map.js",
+    "license": "MIT",
+    "files": [
+        "map.js",
+        "map.d.ts"
+    ],
+    "types": "map.d.ts",
+    "keywords": [
+        "array",
+        "map"
+    ],
+    "author": {
+        "email": "tiniwz@gmail.com",
+        "name": "skt-t1-byungi"
+    },
+    "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/map",
+    "publishConfig": {
+        "access": "public"
+    }
 }

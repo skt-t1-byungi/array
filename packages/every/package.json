@@ -1,24 +1,24 @@
 {
-  "name": "@skt-t1-byungi/array-every",
-  "description": "every() for old browser, in typescript.",
-  "version": "0.1.0",
-  "main": "every.js",
-  "license": "MIT",
-  "files": [
-    "every.js",
-    "every.d.ts"
-  ],
-  "types": "every.d.ts",
-  "keywords": [
-    "array",
-    "every"
-  ],
-  "author": {
-    "email": "tiniwz@gmail.com",
-    "name": "skt-t1-byungi"
-  },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/every",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@skt-t1-byungi/array-every",
+    "description": "every() for old browser, in typescript.",
+    "version": "0.1.0",
+    "main": "every.js",
+    "license": "MIT",
+    "files": [
+        "every.js",
+        "every.d.ts"
+    ],
+    "types": "every.d.ts",
+    "keywords": [
+        "array",
+        "every"
+    ],
+    "author": {
+        "email": "tiniwz@gmail.com",
+        "name": "skt-t1-byungi"
+    },
+    "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/every",
+    "publishConfig": {
+        "access": "public"
+    }
 }

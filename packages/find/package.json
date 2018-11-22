@@ -1,24 +1,24 @@
 {
-  "name": "@skt-t1-byungi/array-find",
-  "description": "find() for old browser, in typescript.",
-  "version": "0.1.0",
-  "main": "find.js",
-  "license": "MIT",
-  "files": [
-    "find.js",
-    "find.d.ts"
-  ],
-  "types": "find.d.ts",
-  "keywords": [
-    "array",
-    "find"
-  ],
-  "author": {
-    "email": "tiniwz@gmail.com",
-    "name": "skt-t1-byungi"
-  },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/find",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@skt-t1-byungi/array-find",
+    "description": "find() for old browser, in typescript.",
+    "version": "0.1.0",
+    "main": "find.js",
+    "license": "MIT",
+    "files": [
+        "find.js",
+        "find.d.ts"
+    ],
+    "types": "find.d.ts",
+    "keywords": [
+        "array",
+        "find"
+    ],
+    "author": {
+        "email": "tiniwz@gmail.com",
+        "name": "skt-t1-byungi"
+    },
+    "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/find",
+    "publishConfig": {
+        "access": "public"
+    }
 }

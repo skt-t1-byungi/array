@@ -1,31 +1,31 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "test": "tsc && ava",
-    "publish": "yarn test && lerna publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/skt-t1-byungi/array.git"
-  },
-  "devDependencies": {
-    "ava": "^0.25.0",
-    "eslint": "^5.2.0",
-    "eslint-config-byungi": "^0.0.17",
-    "lerna": "^2.11.0",
-    "tslint": "^5.11.0",
-    "tslint-config-byungi": "^0.0.5",
-    "typescript": "^3.0.1"
-  },
-  "eslintConfig": {
-    "extends": "byungi"
-  },
-  "eslintIgnore": [
-    "packages/**/*.js",
-    "!packages/**/*.test.js"
-  ]
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "tsc && ava",
+        "publish": "yarn test && lerna publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/skt-t1-byungi/array.git"
+    },
+    "devDependencies": {
+        "ava": "^0.25.0",
+        "eslint": "^5.9.0",
+        "eslint-config-byungi": "^0.2.3",
+        "lerna": "^3.4.3",
+        "tslint": "^5.11.0",
+        "tslint-config-byungi": "0.0.9",
+        "typescript": "^3.1.6"
+    },
+    "eslintConfig": {
+        "extends": "byungi"
+    },
+    "eslintIgnore": [
+        "packages/**/*.js",
+        "!packages/**/*.test.js"
+    ]
 }

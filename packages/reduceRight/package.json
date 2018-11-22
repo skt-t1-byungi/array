@@ -1,24 +1,24 @@
 {
-  "name": "@skt-t1-byungi/array-reduce-right",
-  "description": "reduceRight() for old browser, in typescript.",
-  "version": "0.1.0",
-  "main": "reduceRight.js",
-  "license": "MIT",
-  "files": [
-    "reduceRight.js",
-    "reduceRight.d.ts"
-  ],
-  "types": "reduceRight.d.ts",
-  "keywords": [
-    "array",
-    "reduceRight"
-  ],
-  "author": {
-    "email": "tiniwz@gmail.com",
-    "name": "skt-t1-byungi"
-  },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/reduceRight",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@skt-t1-byungi/array-reduce-right",
+    "description": "reduceRight() for old browser, in typescript.",
+    "version": "0.1.0",
+    "main": "reduceRight.js",
+    "license": "MIT",
+    "files": [
+        "reduceRight.js",
+        "reduceRight.d.ts"
+    ],
+    "types": "reduceRight.d.ts",
+    "keywords": [
+        "array",
+        "reduceRight"
+    ],
+    "author": {
+        "email": "tiniwz@gmail.com",
+        "name": "skt-t1-byungi"
+    },
+    "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/reduceRight",
+    "publishConfig": {
+        "access": "public"
+    }
 }

@@ -1,24 +1,24 @@
 {
-  "name": "@skt-t1-byungi/array-find-index",
-  "description": "findIndex() for old browser, in typescript.",
-  "version": "0.1.0",
-  "main": "findIndex.js",
-  "license": "MIT",
-  "files": [
-    "findIndex.js",
-    "findIndex.d.ts"
-  ],
-  "types": "findIndex.d.ts",
-  "keywords": [
-    "array",
-    "findIndex"
-  ],
-  "author": {
-    "email": "tiniwz@gmail.com",
-    "name": "skt-t1-byungi"
-  },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/findIndex",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@skt-t1-byungi/array-find-index",
+    "description": "findIndex() for old browser, in typescript.",
+    "version": "0.1.0",
+    "main": "findIndex.js",
+    "license": "MIT",
+    "files": [
+        "findIndex.js",
+        "findIndex.d.ts"
+    ],
+    "types": "findIndex.d.ts",
+    "keywords": [
+        "array",
+        "findIndex"
+    ],
+    "author": {
+        "email": "tiniwz@gmail.com",
+        "name": "skt-t1-byungi"
+    },
+    "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/findIndex",
+    "publishConfig": {
+        "access": "public"
+    }
 }

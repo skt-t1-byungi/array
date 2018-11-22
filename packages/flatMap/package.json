@@ -1,24 +1,24 @@
 {
-  "name": "@skt-t1-byungi/array-flat-map",
-  "description": "flatMap() for old browser, in typescript.",
-  "version": "0.1.0",
-  "main": "flatMap.js",
-  "license": "MIT",
-  "files": [
-    "flatMap.js",
-    "flatMap.d.ts"
-  ],
-  "types": "flatMap.d.ts",
-  "keywords": [
-    "array",
-    "flatMap"
-  ],
-  "author": {
-    "email": "tiniwz@gmail.com",
-    "name": "skt-t1-byungi"
-  },
-  "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/flatMap",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@skt-t1-byungi/array-flat-map",
+    "description": "flatMap() for old browser, in typescript.",
+    "version": "0.1.0",
+    "main": "flatMap.js",
+    "license": "MIT",
+    "files": [
+        "flatMap.js",
+        "flatMap.d.ts"
+    ],
+    "types": "flatMap.d.ts",
+    "keywords": [
+        "array",
+        "flatMap"
+    ],
+    "author": {
+        "email": "tiniwz@gmail.com",
+        "name": "skt-t1-byungi"
+    },
+    "repository": "https://github.com/skt-t1-byungi/array/tree/master/packages/flatMap",
+    "publishConfig": {
+        "access": "public"
+    }
 }
