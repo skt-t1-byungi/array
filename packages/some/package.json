@@ -1,7 +1,7 @@
 {
     "name": "@skt-t1-byungi/array-some",
     "description": "some() for old browser, in typescript.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "some.js",
     "license": "MIT",
     "files": [
