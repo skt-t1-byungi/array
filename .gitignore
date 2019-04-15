@@ -2,3 +2,5 @@ node_modules
 packages/*/*.js
 !packages/*/*.test.js
 *.d.ts
+*.lock
+*.log

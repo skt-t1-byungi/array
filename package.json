@@ -13,12 +13,12 @@
         "url": "https://github.com/skt-t1-byungi/array.git"
     },
     "devDependencies": {
-        "ava": "^0.25.0",
+        "ava": "^1.4.1",
         "eslint": "^5.9.0",
         "eslint-config-byungi": "^0.2.3",
         "lerna": "^3.4.3",
         "tslint": "^5.11.0",
-        "tslint-config-byungi": "0.0.9",
+        "tslint-config-byungi": "0.1.1",
         "typescript": "^3.1.6"
     },
     "eslintConfig": {
