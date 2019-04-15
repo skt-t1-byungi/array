@@ -7,4 +7,5 @@ test('some', t => {
 
     t.true(some(stub, x => x === 3))
     t.false(some(stub, x => x > 5))
+    t.true(some(stub, function (x) { return x === this.c }, { c: 3 }))
 })

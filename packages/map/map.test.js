@@ -7,4 +7,5 @@ test('map', t => {
 
     t.deepEqual(map(stub, x => x * 2), [2, 4, 6])
     t.deepEqual(map(stub, x => [x * 2]), [[2], [4], [6]])
+    t.deepEqual(map(stub, function (x) { return x * this.c }, { c: 2 }), [2, 4, 6])
 })

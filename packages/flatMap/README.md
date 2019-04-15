@@ -7,12 +7,15 @@ flatMap([1, 2], x => [x, x * 2])
 // => [1, 2, 2, 4]
 ```
 
-## flatMap(array, mapper)
+## flatMap(array, mapper, [thisArg])
 ### array
 Target array.
 
 ### mapper
 Function that produces an element of the new Array.
+
+### thisArg
+Value to use as this when executing callback.
 
 ## License
 MIT

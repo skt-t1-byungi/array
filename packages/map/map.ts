@@ -1,13 +1,13 @@
-type Mapper<T,U> = (value: T, index: number, array: T[]) => U
+type Mapper<T,U,THIS> = (this: THIS, value: T, index: number, array: T[]) => U
 
-export = function map<T,U> (arr: T[], mapper: Mapper<T,U>) {
-    if (arr.map) return arr.map(mapper)
+export = function map<T,U,THIS= undefined> (arr: T[], mapper: Mapper<T,U,THIS>, thisArg?: THIS) {
+    if (arr.map) return arr.map(mapper, thisArg)
 
     const len = arr.length
-    const res = []
+    const res = Array(len)
 
     for (let i = 0; i < len; i++) {
-        res.push(mapper(arr[i], i, arr))
+        res[i] = mapper.call(thisArg!, arr[i], i, arr)
     }
 
     return res

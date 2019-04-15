@@ -7,4 +7,5 @@ test('findIndex', t => {
 
     t.is(findIndex(stub, x => x === 3), 2)
     t.is(findIndex(stub, x => x === 5), -1)
+    t.is(findIndex(stub, function (x) { return x === this.c }, { c: 3 }), 2)
 })

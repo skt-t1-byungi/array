@@ -7,4 +7,5 @@ test('every', t => {
 
     t.true(every(stub, x => x < 6))
     t.false(every(stub, x => x < 5))
+    t.true(every(stub, function (x) { return x < this.c }, { c: 6 }))
 })

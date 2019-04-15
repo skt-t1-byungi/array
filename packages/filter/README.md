@@ -7,12 +7,15 @@ filter([1, 2, 3], x => x < 2)
 // => [1, 2]
 ```
 
-## filter(array, filterer)
+## filter(array, filterer, [thisArg])
 ### array
 Target array.
 
 ### filterer
 Function is a predicate, to test each element.
+
+### thisArg
+Value to use as this when executing callback.
 
 ## License
 MIT

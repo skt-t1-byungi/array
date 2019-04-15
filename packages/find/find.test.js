@@ -6,5 +6,6 @@ test('find', t => {
     stub.find = undefined
 
     t.is(find(stub, x => x % 2 === 0), 2)
-    t.is(find(stub.reverse(), x => x % 2 === 0), 4)
+    t.is(find(stub.slice().reverse(), x => x % 2 === 0), 4)
+    t.is(find(stub, function (x) { return x % this.c === 0 }, { c: 2 }), 2)
 })

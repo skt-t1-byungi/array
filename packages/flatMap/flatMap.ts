@@ -1,14 +1,13 @@
-type Mapper<T,U> = (value: T, index: number, array: T[]) => U[]
-type ArrayFlatMap<T,U> = T[] & {flatMap: (mapper: Mapper<T,U>) => U[]}
+type Mapper<T,U,THIS> = (this: THIS, value: T, index: number, array: T[]) => U[]
 
-export = function flatMap<T,U> (arr: T[], mapper: Mapper<T,U>) {
-    if ((arr as ArrayFlatMap<T,U>).flatMap) return (arr as ArrayFlatMap<T,U>).flatMap(mapper)
+export = function flatMap<T,U,THIS= undefined> (arr: T[], mapper: Mapper<T,U,THIS>, thisArg?: THIS) {
+    if (arr.flatMap) return arr.flatMap(mapper, thisArg)
 
     const len = arr.length
     let res: U[] = []
 
     for (let i = 0; i < len; i++) {
-        res = res.concat(mapper(arr[i], i, arr))
+        res = res.concat(mapper.call(thisArg!, arr[i], i, arr))
     }
 
     return res

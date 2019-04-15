@@ -7,4 +7,5 @@ test('filter', t => {
 
     t.deepEqual(filter(stub, x => x <= 3), [1, 2, 3])
     t.deepEqual(filter(stub, x => x > 5), [])
+    t.deepEqual(filter(stub, function (x) { return x < this.c }, { c: 3 }), [1, 2])
 })
