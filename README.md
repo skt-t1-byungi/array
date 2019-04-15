@@ -1,9 +1,9 @@
 # @skt-t1-byungi/array
-> Array methods for old browser, in typescript.
+Array methods for old browser, in typescript.
 
-![chi](chi.png)
+![slime](slime.png)
 
-core-js is heavy, others don't have 'd.ts'...
+> core-js is heavy, others don't have 'd.ts'...
 
 ## Packages
 - [every](https://github.com/skt-t1-byungi/array/tree/master/packages/every)
