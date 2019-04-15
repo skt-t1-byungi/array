@@ -3,11 +3,11 @@
 
 ## Example
 ```js
-reduce([1, 2, 3], (acc, v) => acc + v, 0)
+reduce([1, 2, 3], (acc, v) => acc + v)
 // => 6
 ```
 
-## reduce(array, reducer, initValue)
+## reduce(array, reducer, [initValue])
 ### array
 Target array.
 

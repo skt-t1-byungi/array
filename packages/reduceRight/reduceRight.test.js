@@ -14,3 +14,9 @@ test('reduceRight', t => {
     t.deepEqual(reduceRight(stub2, (acc, o) => ({ x: (acc.x || 0) + o.x }), {}), { x: 6 })
     t.is(reduceRight(stub2, (acc, o) => acc + o.x, 5), 11)
 })
+
+test('If there is no initial value.', t => {
+    const stub = [1, 2, 3, 4]
+    stub.reduce = undefined
+    t.is(reduceRight(stub, (acc, v) => acc + v), 10)
+})

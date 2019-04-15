@@ -14,7 +14,7 @@ reduceRight([1, 2, 3], reducer, 0)
 // => 6
 ```
 
-## reduceRight(array, reducer, initValue)
+## reduceRight(array, reducer, [initValue])
 ### array
 Target array.
 
