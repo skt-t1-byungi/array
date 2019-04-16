@@ -1,7 +1,7 @@
 {
     "name": "@skt-t1-byungi/array-reduce-right",
     "description": "reduceRight() for old browser, in typescript.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "main": "reduceRight.js",
     "license": "MIT",
     "files": [
