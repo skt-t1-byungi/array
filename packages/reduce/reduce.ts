@@ -1,13 +1,13 @@
 type Reducer<T,U> = (prev: U, value: T, index: number, array: T[]) => U
 
-export = function reduce<T,U= T> (arr: T[], reducer: Reducer<T,U>, initValue?: U) {
+export = function reduce<T,U= T> (arr: T[], reducer: Reducer<T,U>, initValue?: U): U {
     const isInit = arguments.length === 3
 
     if (arr.reduce) {
         if (isInit) {
             return arr.reduce(reducer, initValue!)
         } else {
-            return arr.reduce(reducer as any)
+            return arr.reduce(reducer as any) as any
         }
     }
 
@@ -19,5 +19,5 @@ export = function reduce<T,U= T> (arr: T[], reducer: Reducer<T,U>, initValue?: U
         res = reducer(res as U, arr[i], i, arr)
     }
 
-    return res
+    return res as any
 }
