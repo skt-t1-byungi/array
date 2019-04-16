@@ -1,4 +1,4 @@
-type Finder<T, THIS> = (this: THIS, value: T, index: number, array: T[]) => boolean
+type Finder<T,THIS> = (this: THIS, value: T, index: number, array: T[]) => boolean
 
 export = function find<T,THIS= undefined> (arr: T[], finder: Finder<T, THIS>, thisArg?: THIS) {
     if (arr.find) return arr.find(finder, thisArg)
